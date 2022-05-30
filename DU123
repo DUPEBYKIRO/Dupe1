@@ -1,0 +1,8 @@
+print('kiro igop')
+local ull  = game:HttpGet("https://pastebin.com/nWrgVB25")
+local null = game:HttpGet("https://pastebin.com/nWrgVB25")
+
+while task.wait(5.0) do
+    workspace.__THINGS.__REMOTES.MAIN:FireServer("b", ull)
+workspace.__THINGS.__REMOTES.MAIN:FireServer("c", null)
+end
